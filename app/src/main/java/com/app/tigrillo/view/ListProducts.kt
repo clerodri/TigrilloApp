@@ -33,10 +33,10 @@ class ListProducts : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        productViewModel.getProducts()
-        productViewModel.listProduct.observe(viewLifecycleOwner){
-
-        }
+//        productViewModel.getProducts()
+//        productViewModel.listProduct.observe(viewLifecycleOwner){
+//
+//        }
 
 
     }
