@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.app.tigrillo.R
 import com.app.tigrillo.databinding.FragmentDetailProductoBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class DetailProducto : Fragment() {
 
     lateinit var  binding : FragmentDetailProductoBinding

@@ -5,8 +5,11 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.app.tigrillo.data.model.Producto
 import com.app.tigrillo.data.repository.ProductRepository
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class ProductViewModel (val repository:ProductRepository) :ViewModel() {
+@HiltViewModel
+class ProductViewModel @Inject constructor (val repository:ProductRepository) :ViewModel() {
 
 
     private var _listProducts = MutableLiveData<List<Producto>>()
