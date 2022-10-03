@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "778894914582",
+    "firebase_url": "https://app-reydeltigrillo-default-rtdb.firebaseio.com",
+    "project_id": "app-reydeltigrillo",
+    "storage_bucket": "app-reydeltigrillo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778894914582:android:73b4414c802ff2ae663137",
+        "android_client_info": {
+          "package_name": "com.app.reytigrillo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778894914582-mkdhq4hng9tadutbldugvlvjurdho309.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVJLYBPkYcGqObI7BJN7S0heUDJB-krMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778894914582-mkdhq4hng9tadutbldugvlvjurdho309.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778894914582:android:5f55b64028767691663137",
+        "android_client_info": {
+          "package_name": "com.app.tigrillo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778894914582-mkdhq4hng9tadutbldugvlvjurdho309.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVJLYBPkYcGqObI7BJN7S0heUDJB-krMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778894914582-mkdhq4hng9tadutbldugvlvjurdho309.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
