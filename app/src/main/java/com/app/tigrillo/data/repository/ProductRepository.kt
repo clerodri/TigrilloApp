@@ -6,4 +6,5 @@ interface ProductRepository {
 
 
     fun getData():List<Producto>
+    suspend fun getAllProductosByApi():List<Producto>
 }

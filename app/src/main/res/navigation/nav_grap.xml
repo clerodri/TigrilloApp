@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/listProducts"
-        android:name="com.app.tigrillo.view.ListProducts"
+        android:name="com.app.tigrillo.ui.view.ListProducts"
         android:label="fragment_list_products"
         tools:layout="@layout/fragment_list_products" >
         <action
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailProducto"
-        android:name="com.app.tigrillo.view.DetailProducto"
+        android:name="com.app.tigrillo.ui.view.DetailProducto"
         android:label="fragment_detail_producto"
         tools:layout="@layout/fragment_detail_producto" />
 </navigation>

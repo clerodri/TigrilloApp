@@ -1,4 +1,4 @@
-package com.app.tigrillo.view
+package com.app.tigrillo.ui.view
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

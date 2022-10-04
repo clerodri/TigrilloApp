@@ -1,3 +1,8 @@
 package com.app.tigrillo.data.model
 
-data class Producto(var title:String,var url :String,var id:Int)
+import com.google.gson.annotations.SerializedName
+
+data class Producto(
+    @SerializedName("title") var title: String, @SerializedName("image") var url: String,
+    @SerializedName("id") var id: String
+)

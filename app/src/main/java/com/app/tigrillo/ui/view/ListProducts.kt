@@ -1,4 +1,4 @@
-package com.app.tigrillo.view
+package com.app.tigrillo.ui.view
 
 import android.os.Bundle
 import android.util.Log
@@ -10,7 +10,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
 import com.app.tigrillo.R
 import com.app.tigrillo.databinding.FragmentListProductsBinding
-import com.app.tigrillo.viewmodel.ProductViewModel
+import com.app.tigrillo.ui.viewmodel.ProductViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -34,7 +34,7 @@ class ListProducts : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        productViewModel.onCreate()
         productViewModel.getProducts()
         productViewModel.listProduct.observe(viewLifecycleOwner){
                 Log.e(TAG,it.toString())
